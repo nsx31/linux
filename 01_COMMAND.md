@@ -30,6 +30,17 @@ ls -a
 ls -la
 ```
 
+When we run `ls -l` we get output something like this : 
+![alt text](image-1.png)
+<br>
+- d: directory.
+- r: read
+- w: write
+- x: execute
+- 1: number of hardlinks present
+
+for example: `drwxr-xr-x` signifies that the item is a directory, owner of that directroy has read-write-execute permission, group member has read-execute permission and other users also have read-execute permission.
+
 ### 4. Change directory :
 ```sh
 cd <directory_name> # move to the mentioned directory
@@ -37,4 +48,3 @@ cd ..               # move to previous directory
 cd ~                # move to the home directory
 cd /                # move to the root directory
 ```
-
