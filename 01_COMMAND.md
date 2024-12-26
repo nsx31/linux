@@ -48,3 +48,16 @@ cd ..               # move to previous directory
 cd ~                # move to the home directory
 cd /                # move to the root directory
 ```
+
+### 5. Determining file type : 
+```sh
+file psyo.pdf   # psyo.pdf: PDF document, version 1.4, 758 page(s)
+
+file desk.jpeg  # desk.jpeg: JPEG image data, JFIF standard 1.01
+```
+
+### 6. Read text file : 
+```sh
+less <file_name>
+```
+
